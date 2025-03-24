@@ -1,0 +1,38 @@
+.resume {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6rem 0;
+}
+
+.resume-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    border: 2px solid red;
+}
+
+.section-title h1 {
+    margin-bottom: 1rem;
+    /* border: 2px solid red; */
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;  
+}
+
+.row {
+    max-width: 1140px;
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    /* border: 2px solid red; */
+}
+
+@media screen and (max-width: 640px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+}

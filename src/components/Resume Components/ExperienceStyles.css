@@ -1,0 +1,65 @@
+.experience-details h1 {
+    margin: 0 0.4rem;
+    border-bottom: 2px solid hotpink;
+    display: inline-block;
+}
+
+.exp-items {
+    border-left: 2px solid #0563bb;
+    padding: 1rem;
+    padding: 0 0 0 20px;
+    margin-top: 1.2rem;
+}
+
+.exp-item {
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.role::before {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    /* left: -32px; */
+    left: -2rem;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
+}
+
+.role {
+    line-height: 18px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0563bb;
+    margin-top: 10px;
+}
+
+.period {
+    font-size: 16px;
+    background: #bfc2c46c;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.organization {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.role-summary {
+    margin: 8px 0 10px;
+}
+
+.role-summary ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.role-summary li {
+    margin-bottom: 8px;  
+}

@@ -1,0 +1,58 @@
+ .educational-details h1 {
+     margin: 0 0.4rem;
+     border-bottom: 2px solid hotpink;
+     display: inline-block;
+ }
+
+ .edu-items {
+     border-left: 2px solid #0563bb;
+     padding: 1rem;
+     padding: 0 0 0 20px;
+     margin-top: 1.2rem;
+ }
+
+ .edu-item {
+     margin-bottom: 1.2rem;
+     position: relative;
+ }
+
+ .course::before {
+     content: "";
+     position: absolute;
+     width: 1.2rem;
+     height: 1.2rem;
+     border-radius: 50%;
+     /* left: -32px; */
+     left: -2rem;
+     top: 0;
+     background: #fff;
+     border: 2px solid #0563bb;
+ }
+
+ .course {
+     line-height: 18px;
+     font-size: 1rem;
+     font-weight: 600;
+     text-transform: uppercase;
+     color: #0563bb;
+     margin-top: 10px;
+ }
+
+
+ .course-period {
+     font-size: 16px;
+     background: #bfc2c46c;
+     padding: 5px 15px;
+     display: inline-block;
+     font-weight: 600;
+     margin-bottom: 10px;
+ }
+
+ .institute {
+     margin-top: 0;
+     margin-bottom: 10px;
+ }
+
+ .percentage {
+     margin: 8px 0 10px;
+ }
